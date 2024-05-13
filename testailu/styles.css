@@ -1,0 +1,91 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  color: blue;
+}
+ul {
+  color: blueviolet;
+}
+p {
+  color: rgb(97, 68, 165);
+}
+.kanaperse {
+  color: coral;
+}
+.juhla {
+  color: green;
+}
+.perkele {
+  padding: 37px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.saakeli {
+  max-width: 1000px;
+  max-height: 1000px;
+}
+.alasivu {
+  padding: 30px;
+}
+
+body {
+  background-image: url("istockphoto-1328689113-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  border-radius: 3px;
+  display: inline;
+}
+h2 {
+  border-radius: 3px;
+  border-style: solid;
+  display: inline;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: black;
+  padding: 0px 15%;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: azure;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: lightgray;
+}
+.navbar li {
+  float: left;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.kosmossos {
+  max-width: 800px;
+  max-height: 800px;
+}
